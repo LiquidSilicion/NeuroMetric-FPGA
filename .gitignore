@@ -1,0 +1,34 @@
+# Vivado/Quartus build artifacts
+*.jou
+*.log
+*.str
+*.dcp
+*.bit
+*.bin
+*.xsa
+*.xpr
+*.hw
+*.ip_user_files/
+*.sim/
+*.cache/
+*.runs/
+*.srcs/
+
+# Python
+__pygenerated__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Reports (keep template, ignore generated)
+host/reports/benchmark_*.md
+!host/reports/README.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
